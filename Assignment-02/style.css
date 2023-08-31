@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 2000px;
+}
+.header{
+    height: 55px;
+    background-color: #ffffff;
+    color: #2DCAC2;
+    display: flex;
+    justify-content: space-between;
+}
+.header >h3{
+    color: rgba(8,53,86,255);
+    font-size: 19px;
+    padding-top: 11px;
+    padding-left: 40px;
+    font-family: cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: #2DCAC2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color: #9de1dd;
+  }
+.baner{
+    height: 338px;
+    background-color:#2ecfc3;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.baner >img{
+    padding-top: 76px;
+}
+.content{
+    height:auto;
+    background-color: white;
+    display: flex;
+    justify-content:space-evenly;
+    /* margin:0px 80px 0px 80px; */
+}
+.content > p{
+    color: #c7c7c7;
+}
+.left-sidebar{
+    background-color:#ffffff;
+    /* height: 987px; */
+    width: 27.5%;
+    color: #0f405f;
+}
+.middle-sidebar{
+    background-color: #ffffff;
+    width: 35%;
+    /* height: 987px; */
+    color: #0d3656;
+}
+.right-sidebar{
+    background-color: #ffffff;
+    width: 27.5%;
+    /* height: 987px; */
+    color: #0d3656;
+}
+.footer{
+    height: 50px; 
+    background-color: #d5e0e6;
+    text-align: center;
+    color: #76797b;
+    padding-top: 25px;
+}
+.middle-sidebar >img{
+    width: 100%;
+    padding-top: 30px;
+
+}
+.middle-sidebar >p{
+    padding-top: 30px;
+}
+.left-sidebar >h3{
+    font-size: 22px;
+    font-weight: bolder;
+    padding-top: 70px;
+}
+.left-sidebar >p{
+    padding-top: 30px;
+}
+.middle-sidebar >h3{
+    padding-top: 70px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.right-sidebar >h3{
+    padding-top: 70px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.right-sidebar >p{
+     padding-top: 30px;
+}

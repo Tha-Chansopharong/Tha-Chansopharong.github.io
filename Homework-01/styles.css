@@ -50,7 +50,7 @@ input[type=text] {
     color: #f8f6f3;
     border-color: #6a7487;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 15px;
   }
   
 
@@ -90,7 +90,7 @@ input[type=text] {
     height: 500px;
     background-color: blueviolet;
     display: flex;
-    font-size: 20px;
+    font-size: 16px;
 
 }
 .left-sidebar{
@@ -147,7 +147,7 @@ input[type=text] {
     line-height: 30px;
     word-spacing: 2px;
     color: #6a7487;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 .About-us{
     width: 25%;

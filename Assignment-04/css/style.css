@@ -6,17 +6,13 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.menu{
-    background-color: #1e1f29;
-    height: 3.6vh;
-    
-}
+
 .row-3{
     /* margin-top: 30px; */
     height:5.5vh ;
     /* background-color: rgb(223, 106, 106); */
     padding-top: 6px;
-    border-bottom: 1px solid #eef0f4;
+    border-bottom: 0.5px solid rgb(228, 222, 222);
     /* background-color: green;  */
 }
 
@@ -35,7 +31,7 @@
 }
 .row4{
     /* background-color: rgb(188, 68, 168); */
-    height: 30vh;
+    height: 40vh;
     margin: 0px;
     padding: 0px;
     /* background-color: red; */
@@ -50,24 +46,52 @@
 }
 .ig-1{
     width: 300px;
-    height: 190px;
-    background-color: #e4e7ed;
+    height: 36vh;
+    background-color: #f6f6f6;
     position: absolute; 
     left: 20px;
     border-radius: 0px;
+    /* border-top: 15vh solid red;  
+    border-right: 20vw solid transparent;  */
 }
+.box1::before {
+  content: " ";
+  border-top: 12vh solid rgb(224, 11, 11);
+  border-right: 7vw solid transparent;
+  z-index: 20;
+  position: absolute;
+  left: 20px;
 
+}
+.box2::before {
+  content: " ";
+  border-top: 12vh solid rgb(224, 11, 11);
+  border-right: 7vw solid transparent;
+  z-index: 40;
+  position: absolute;
+  right: 540px;
+
+}
+.box3::before {
+  content: " ";
+  border-top: 12vh solid rgb(224, 11, 11);
+  border-right: 7vw solid transparent;
+  z-index: 60;
+  position: absolute;
+  left: 676px;
+
+}
 .ig-2{
     width: 300px;
-    height: 190px;
-    background-color: #e4e7ed;
+    height: 36vh;
+    background-color: #f6f6f6;
     position: absolute;
     left: 350px;
 }
 .ig-3{
     width: 300px;
-    height: 190px;
-    background-color: #e4e7ed; 
+    height: 36vh;
+    background-color: #f6f6f6; 
     position: absolute;
     right: 20px;   
 }
@@ -151,6 +175,15 @@
     position: absolute;
     right: 15px;
     
+}
+img:hover{
+   border: 2px solid rgb(172, 44, 44);
+}
+img:hover{
+  border: 2px solid rgb(172, 44, 44);
+}
+img:hover{
+  border: 2px solid rgb(172, 44, 44);
 }
 .sma{
     width: 90%;
@@ -408,17 +441,6 @@ pre{
   .product{
     border: 1px solid rgb(220, 216, 216);
   }
-  /* .section-tab-nav-1 li a{
-    font-weight: 700;
-    color: #8D99AE;
-    text-decoration: none;
-
-  } */
-
-
-  /* .product .product-img>img {
-    width: 100%;
-  } */
   .section-title .section-nav .section-tab-nav-1 {
     display: inline-block;
   }

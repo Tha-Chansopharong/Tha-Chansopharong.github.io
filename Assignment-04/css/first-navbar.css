@@ -2,7 +2,11 @@
     padding-left: 0px;
 }
 span{
-    font-size: 10px;
+    font-size: 12px;
     padding: 18px;
     color: white;
+}
+.menu{
+    background-color: #1c1e2e;
+    height: 3.9vh;   
 }

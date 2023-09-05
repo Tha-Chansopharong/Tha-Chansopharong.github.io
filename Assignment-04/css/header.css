@@ -1,0 +1,47 @@
+.logo{
+    /* margin-top: 30px; */
+    height: 8vh;
+    background-color: black;
+}
+.colb{
+    /* background-color: rgb(93, 223, 114); */
+    display: flex;
+    position: relative;
+
+}
+.btn-search{
+    /* position: absolute; */
+    left: 20%;
+    border-radius: none;
+}
+.bg-search{
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    left:93% ;
+    /* border: 1px solid black; */
+    border-radius: 0px; 
+    /* top: 8px; */
+    height: 30px;
+    width: 90px;
+}
+.box-search{
+    border-radius:0px;
+    width: 250px;
+    height: 30px;
+}
+.favo-icon{
+    position: absolute;
+    right: 100px;
+}
+.shop-icon{
+    position: absolute;
+    right: 40px;
+}
+.img-logo{
+    font-size:30px;
+    padding-left: 7px;
+    margin: 0px;
+    padding-top:2px ;
+}

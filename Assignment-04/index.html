@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-5.3.1-dist/js/bootstrap.min.js">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
     <div class="container-fluid">
@@ -17,7 +16,7 @@
             <div class="col-md-8 class2">
                 <span>  
                     <i class="fa fa-phone" style="font-size:12px;color:red;"></i>
-                    +013 31 19 43
+                    +013-31-19-43
                 </span>
                 <span>
                     <i class="fa fa-envelope" style="font-size:12px;color:red"></i>
@@ -27,7 +26,7 @@
                     <i class="fa fa-map-marker" style="font-size:12px;color:red"></i>
                     1734 Stonecoal Road
                 </span>   
-                <span style="padding-left:45%;">
+                <span style="padding-left:42%;">
                     <i class="fa fa-dollar" style="font-size:12px;color:red;"></i>
                     USD
                 </span>
@@ -68,13 +67,34 @@
         <div class="row  row-3">
             <div class="col-md-2"></div>
             <div class="col-md-8 cul2">
-                <span><a href="#" class="link-underline-danger fir-1"> Home</a></span>
-                <span><a href="#" class="link-underline-danger"> Hot Deals</a></span>
-                <span><a href="#" class="link-underline-danger">Categories</a></span>
-                <span><a href="#" class="link-underline-danger">Laptops</a></span>
-                <span><a href="#" class="link-underline-danger">Smartphones</a></span>
-                <span><a href="#" class="link-underline-danger">Cameras</a></span>
-                <span><a href="#" class="link-underline-danger">Accessories</a></span>
+                <!-- <div class="section-title"> -->
+                    <!-- <h5 class="title">New Products</h5> -->
+                    <div class="section-nav">
+                      <ul class="section-tab-nav-1 tab-nav">
+                        <li class="active">
+                          <a data-toggle="tab" href="">Home</a> 
+                        </li>
+                        <li>
+                          <a data-toggle="tab" href="">Hot Deals </a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="">Categories </a>
+                        </li>
+                        <li >
+                            <a data-toggle="tab" href="">Laptops </a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="">Smartphones</a> 
+                          </li>
+                          <li>
+                            <a data-toggle="tab" href="">Cameras </a>
+                          </li>
+                          <li>
+                              <a data-toggle="tab" href="">Accessories </a>
+                          </li>
+                      </ul>
+                    </div>
+                  <!-- </div> -->
             </div>
             <div class="col-md-2"></div>
         </div>
@@ -100,18 +120,237 @@
             </div>
             <div class="col-md-2"></div>
         </div>
-        <div class="row row-5">
+        
+        <div class="row">
+            <!-- section title -->
             <div class="col-md-2"></div>
-            <div class="col-md-8 cul-9">
-                <span class="new-pro"><a href="#" class="link-underline-danger"> NEW PRODUCTS</a></span>
-                <main class="name">
-                    <span><a href="#" class="link-underline-danger"> Laptops</a></span>
-                    <span><a href="#" class="link-underline-danger"> Smartphones</a></span>
-                    <span><a href="#" class="link-underline-danger"> Camera</a></span>
-                    <span><a href="#" class="link-underline-danger"> Accessories</a></span>
-                </main>
+            <div class="col-md-8 new-class">
+              <div class="section-title">
+                <h5 class="title">New Products</h5>
+                <div class="section-nav">
+                  <ul class="section-tab-nav tab-nav">
+                    <li>
+                      <a data-toggle="tab" href="">Laptops </a> 
+                    </li>
+                    <li>
+                      <a data-toggle="tab" href="">Smartphones </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="">Cameras  </a>
+                    </li>
+                    <li class="active">
+                        <a data-toggle="tab" href="">Accessories </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="products-tabs">
+                  <!-- tab -->
+                  <div id="tab1" class="tab-pane active">
+                    <div class="products-slick" data-nav="#slick-nav-1">
+                      <div class="product">
+                        <a href="#">
+                          <div class="product-img">
+                            <img src="https://i.ibb.co/rygRLTd/product02.png" style="max-height: 170px;" alt="">
+                            <div class="product-label">
+                              <span style="margin-left: 35px;" class="new">NEW
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product-body">
+                          <p class="product-category">Gadgets
+                          </p>
+                          <h3 class="product-name header-cart-item-name">
+                            <a
+                               href="#" tabindex="-1">sony Headphones
+                            </a>
+                          </h3>
+                          <h4 class="product-price header-cart-item-info">$980.00
+                            <del
+                                 class="product-old-price">$990.00
+                            </del>
+                          </h4>
+                          <div class="product-rating">
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product">
+                        <a href="#">
+                          <div class="product-img">
+                            <img src="https://i.ibb.co/sjwZzS4/product04.png"
+                                 style="max-height: 170px;" alt="">
+                          </div>
+                        </a>
+                        <div class="product-body">
+                          <p class="product-category">Gadgets
+                          </p>
+                          <h3 class="product-name header-cart-item-name">
+                            <a
+                               href="#" tabindex="-1">samsung Headphones
+                            </a>
+                          </h3>
+                          <h4 class="product-price header-cart-item-info">$980.00
+                            <del
+                                 class="product-old-price">$990.00
+                            </del>
+                          </h4>
+                          <div class="product-rating">
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product">
+                        <a href="#">
+                          <div class="product-img">
+                            <img src="https://i.ibb.co/N9wCcJ3/product01.png"
+                                 style="max-height: 170px;" alt="">
+                          </div>
+                        </a>
+                        <div class="product-body">
+                          <p class="product-category">Electronics
+                          </p>
+                          <h3 class="product-name header-cart-item-name">
+                            <a
+                               href="#" tabindex="-1">HP i5 laptop
+                            </a>
+                          </h3>
+                          <h4 class="product-price header-cart-item-info">$980.00
+                            <del
+                                 class="product-old-price">$990.00
+                            </del>
+                          </h4>
+                          <div class="product-rating">
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product">
+                        <a href="#">
+                          <div class="product-img">
+                            <img src="https://i.ibb.co/2hR1nrN/product03.png"
+                                 style="max-height: 170px;" alt="">
+                            <div class="product-label">
+                              <span style="padding-top: 0.5px; padding-bottom: 0.5px;" class="sale">-30%
+                              </span>
+                              <span  class="new">NEW
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product-body">
+                          <p class="product-category">Electronics
+                          </p>
+                          <h3 class="product-name header-cart-item-name">
+                            <a
+                               href="#" tabindex="-1">HP i7 laptop 8gb
+                              ram
+                            </a>
+                          </h3>
+                          <h4 class="product-price header-cart-item-info">$980.00
+                            <del
+                                 class="product-old-price">$990.00
+                            </del>
+                          </h4>
+                          <div class="product-rating">
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star-o" style="font-size:17px;color:rgb(191, 186, 186)"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product">
+                        <a href="#">
+                          <div class="product-img">
+                            <img src="https://i.ibb.co/rygRLTd/product02.png" style="max-height: 170px;" alt="">
+                            <div class="product-label">
+                              <!-- <span class="sale">-30%
+                              </span> -->
+                              <span style="margin-left: 35px;" class="new">NEW
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product-body">
+                          <p class="product-category">Gadgets
+                          </p>
+                          <h3 class="product-name header-cart-item-name">
+                            <a
+                               href="#" tabindex="-1">sony Headphones
+                            </a>
+                          </h3>
+                          <h4 class="product-price header-cart-item-info">$980.00
+                            <del
+                                 class="product-old-price">$990.00
+                            </del>
+                          </h4>
+                          <div class="product-rating">
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                            <i class="fa fa-star">
+                            </i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="products-slick" data-nav="#slick-nav-1" >
+                    </div>
+                    
+                  </div> 
+                  <!-- /tab -->
+                </div>
+              </div>
+            </div>
+            <!-- Products tab & slick -->
+            <div class="col-md-2"></div>
+          </div>
+        </div>
         </div>
     </div>
     

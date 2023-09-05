@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: #1e1f29;
+    height: 3.6vh;
+    
+}
+.class2{
+    padding-left: 0px;
+}
+span{
+    font-size: 10px;
+    padding: 18px;
+    color: white;
+}
+.logo{
+    /* margin-top: 30px; */
+    height: 8vh;
+    background-color: black;
+}
+.colb{
+    /* background-color: rgb(93, 223, 114); */
+    display: flex;
+    position: relative;
+
+}
+.btn-search{
+    /* position: absolute; */
+    left: 20%;
+    border-radius: none;
+}
+.bg-search{
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    left:93% ;
+    /* border: 1px solid black; */
+    border-radius: 0px; 
+    /* top: 8px; */
+    height: 30px;
+    width: 90px;
+}
+.box-search{
+    border-radius:0px;
+    width: 250px;
+    height: 30px;
+}
+.favo-icon{
+    position: absolute;
+    right: 90px;
+}
+.img-logo{
+    font-size:30px;
+    padding: 0px;
+    margin: 0px;
+    padding-top:2px ;
+}
+.shop-icon{
+    position: absolute;
+    right: 10px;
+}
+.row-3{
+    /* margin-top: 30px; */
+    height:5.5vh ;
+    /* background-color: rgb(223, 106, 106); */
+    padding-top: 6px;
+    border-bottom: 1px solid #eef0f4;
+    /* background-color: green;  */
+}
+
+.cul2 span{
+    color: black;
+    font-size: 12px;
+}
+.cul2 span > a:hover{
+    color: red;
+    text-decoration: underline;
+     
+}
+.cul2 span > a{
+    color: black;
+    text-decoration: none;
+}
+.row4{
+    /* background-color: rgb(188, 68, 168); */
+    height: 30vh;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+    
+}
+.image-3{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 15px;
+    position: relative; 
+}
+.ig-1{
+    width: 300px;
+    height: 190px;
+    background-color: #e4e7ed;
+    border-radius: none;
+    position: absolute; 
+    left: 20px;
+}
+.ig-2{
+    width: 300px;
+    height: 190px;
+    background-color: #e4e7ed;
+    position: absolute;
+    left: 365px;
+}
+.ig-3{
+    width: 300px;
+    height: 190px;
+    background-color: #e4e7ed; 
+    position: absolute;
+    right: 20px;   
+}
+.cul-9 span > a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgba(106, 105, 105, 0.488);
+    font-weight: bolder;
+   
+}
+.row-5{
+    margin-top: 20px;
+    height: 6vh;
+    /* background-color: red; */
+    margin-top: 50px;
+   
+}
+.new-pro{
+    /* color: #af3abc; */
+    font-size: 18px;
+    font-weight: bold;
+    /* float: left; */
+      
+}
+.cul-9 span{   
+    padding: 18px; 
+}
+.cul-9{
+    /* background-color: black; */
+    padding-top: 8px;
+    margin: 0px;
+
+}
+.name{
+    float: right;
+}
+
+
+

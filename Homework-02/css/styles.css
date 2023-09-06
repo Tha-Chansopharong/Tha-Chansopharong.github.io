@@ -1,3 +1,7 @@
+@import "menu_sidebar.css";
+@import "content-sidebar.css";
+@import "left-sidebar.css";
+@import "right-sidebar.css";
 *{
     margin: 0px;
     padding: 0px;
@@ -5,7 +9,7 @@
 }
 .container{
     width: 100%;
-    background-color: #D8D8D8;
+    background-color: #DEB6AB;
     height: auto;
    
     /* margin: 0px auto; */
@@ -13,69 +17,7 @@
 .text p{
     font-weight: 80;
 }
-.menu{
-    background-color: white;
-    width: 100%;
-    display: flex;
-}
-.sidebar ol{
-    display: inline-flex;
-}
-.sidebar ol > li{
-    list-style-type: none;
-    padding: 10px;
-    font-weight: 100px;
-    color: #040D12;
-}
-.sidebar ol li:hover{
-    background-color: #55ACEE;
-    color: white;
-    border-radius: 5px;
-}
-.fa-twitter {
-  
-    color: #55ACEE;
-    text-decoration: none;
-}
-.sidebar a{
-    position: absolute;
-    top: 10px;
-    left: 400px;
-}
-.sidebar button{
-    position: absolute;
-    top: 5px;
-    right: 10px;
-}
-.switer{
-    /* width: 50px; */
-    margin-left: 80px;
-    padding-top: 9px;
-  
-}
-button{
-    width: 100px;
-    height: 25px;
-    border: 1px solid skyblue;
-    background: #55ACEE;
-    border-radius: 12px;
-    font-weight: 200px;
-    font-size: 15px;
-    color: white;
-    
-}
-.sidebar{
-    width: 70%;
-    position: relative;
-}
-.menu-left{
-    width:15% ;
-    /* background-color: aqua; */
-}
-.menu-right{
-    width: 15%;
-    /* background-color: black; */
-}
+
 .btm-body{
     width: 100%;
     /* background-color: red; */
@@ -96,189 +38,10 @@ button{
     justify-content: space-evenly;
     margin-top: 15px;
 }
-.right-bd{
-    width: 15%;
-    height: 600px;
-    /* background-color: rgb(216, 70, 70); */
-}
-.left-1{
-    width: 22%;
-    background-color:white;
-    height: 220px;
-    position: relative;
-}
-.left-1 img{
-    position: absolute;
-    top:60px;
-    left: 17px;
-}
-.left-1 a{
-    position: absolute;
-    left: 96px;
-}
-.left-1 p{
-    position: absolute;
-    left: 93px;
-    font-size: 14px;
-    color: rgb(99, 90, 90);
-}
-.top{
-    width: 100%;
-    height: 80px;
-    background-color: black;
-}
-.right-1{
-    width: 225px;
-    background-color:white;
-    height: 220px;
-    position: relative;
-    padding-left: 5px;
-}
-.avatar {
-    vertical-align: middle;
-    width:25%;
-    /* height: 60px; */
-    border-radius: 50%;
-}
-.left-1 ul{
-    display: flex;
-    padding-top: 35px;
-
-}
-.left-1 ul > li{
-    list-style-type: none;
-    padding: 10px;
-}
-.left-1 ol{
-    display: flex;
-    
-
-}
-.left-1 ol >li{
-    list-style-type: none;
-    padding: 20px;
-    color: #55ACEE;
-    padding-top: 5px;
-}
-.left-1 a{
-    color: black;
-    font-weight: bold;
-}
-.rgt-side{
-    width: 100%;
-    height: 80px;
-    /* background-color: red; */
-     position: absolute; 
-    top: 35px;
-    border-bottom: 1px solid rgb(219, 211, 211);   
-}
-.right-1 button{
-    position: absolute;
-    left: 65px;
-    width: 90px;
-    border: 1px solid #55ACEE ;
-    background-color: white;
-    color: #55ACEE;
-    top: 50px;
-    font-weight: bolde;
-   
-}
-.rgt-side img{
-    position: absolute;
-    top: 15px;
-}
-.rgt-side span{
-    position: absolute;
-   left: 70px;
-   top: 15px;
-   font-weight: bolder;
-}
-.rgt-side p{
-    position: absolute;
-    right: 25px;
-    top:15px ;
-    color: rgb(150, 146, 146);
-}
-.rgt-side1{
-    width: 100%;
-    height: 82px;
-    /* background-color: black; */
-    position: absolute;
-    top: 120px;
-    border-bottom: 1px solid rgb(219, 211, 211);
-    
-}
-.rgt-side1 img{
-    position: absolute;
-    top: 10px;
-}
-.rgt-side1 span{
-    position: absolute;
-   left: 70px;
-   top: 15px;
-   font-weight: bolder;
-}
-.rgt-side1 p{
-    position: absolute;
-    right: 25px;
-    top:15px ;
-    color: rgb(150, 146, 146);
-}
-h3{
-    padding-top: 10px;
-    font-weight: 600px;
-    font-size: 20px;
-    /* position: absolute;
-    top: 35px; */
-}
-.avatar1 {
-    vertical-align: middle;
-    width:22%;
-    /* height: 60px; */
-    border-radius: 50%;
-}
-.avatar2 {
-    vertical-align: middle;
-    width:22%;
-    /* height: 60px; */
-    border-radius: 50%;
-}
-.center-1{
-    width: 50%;
-    background-color: white;
-    height: 460px;
-    /* margin-left: 30px; */
-    position: relative;
-}
-.center-1 .img1{
-    display: flex;
-    height: 80px;
-    /* background-color: red; */
-}
-.center-1 .img1 .image1{
-    position: relative;
-}
-.center-1 .img1 .image1 .avatar3{
-    height: 60px;
-    margin-top: 7px;
-    /* padding-top: 6px; */
-    margin-left: 10px;
-    /* vertical-align: middle; */
-}
-.center-1 .img1 .text{
-    position: relative;
-    padding-left: 17px;
-    padding-top: 10px;
-}
 button:hover{
     background-color: #55ACEE;
     color: white;
 }
-.left-1 ol li:hover{
-    color: red;
-}
-.left-1 ul li:hover{
-    color: #55ACEE;
-}
+
 
 

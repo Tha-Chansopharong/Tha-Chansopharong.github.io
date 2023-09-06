@@ -1,0 +1,85 @@
+.right-bd{
+    width: 15%;
+    height: 600px;
+    /* background-color: rgb(216, 70, 70); */
+}
+
+.rgt-side{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+     position: absolute; 
+    top: 35px;
+    border-bottom: 1px solid rgb(219, 211, 211);   
+}
+.right-1 button{
+    position: absolute;
+    left: 65px;
+    width: 90px;
+    border: 1px solid #55ACEE ;
+    background-color: white;
+    color: #55ACEE;
+    top: 50px;
+    font-weight: bolde;
+   
+}
+.rgt-side img{
+    position: absolute;
+    top: 15px;
+}
+.rgt-side span{
+    position: absolute;
+   left: 70px;
+   top: 15px;
+   font-weight: bolder;
+}
+.rgt-side p{
+    position: absolute;
+    right: 25px;
+    top:15px ;
+    color: rgb(150, 146, 146);
+}
+.rgt-side1{
+    width: 100%;
+    height: 82px;
+    /* background-color: black; */
+    position: absolute;
+    top: 120px;
+    border-bottom: 1px solid rgb(219, 211, 211);
+    
+}
+.rgt-side1 img{
+    position: absolute;
+    top: 10px;
+}
+.rgt-side1 span{
+    position: absolute;
+   left: 70px;
+   top: 15px;
+   font-weight: bolder;
+}
+.rgt-side1 p{
+    position: absolute;
+    right: 25px;
+    top:15px ;
+    color: rgb(150, 146, 146);
+}
+h3{
+    padding-top: 10px;
+    font-weight: 600px;
+    font-size: 20px;
+    /* position: absolute;
+    top: 35px; */
+}
+.avatar1 {
+    vertical-align: middle;
+    width:22%;
+    /* height: 60px; */
+    border-radius: 50%;
+}
+.avatar2 {
+    vertical-align: middle;
+    width:22%;
+    /* height: 60px; */
+    border-radius: 50%;
+}

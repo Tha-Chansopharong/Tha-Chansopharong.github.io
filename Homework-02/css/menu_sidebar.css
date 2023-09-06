@@ -1,0 +1,64 @@
+.menu{
+    background-color: rgb(50, 48, 48);
+    width: 100%;
+    display: flex;
+}
+.sidebar ol{
+    display: inline-flex;
+}
+.sidebar ol > li{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 100px;
+    /* color: #040D12; */
+    color: white;
+}
+.sidebar ol li:hover{
+    background-color: #55ACEE;
+    color: white;
+    border-radius: 5px;
+}
+.fa-twitter {
+  
+    color: #55ACEE;
+    text-decoration: none;
+}
+.sidebar a{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+.sidebar button{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.switer{
+    /* width: 50px; */
+    margin-left: 80px;
+    padding-top: 9px;
+  
+}
+button{
+    width: 100px;
+    height: 25px;
+    border: 1px solid skyblue;
+    background: #55ACEE;
+    border-radius: 12px;
+    font-weight: 200px;
+    font-size: 15px;
+    color: white;
+    
+}
+.sidebar{
+    width: 70%;
+    position: relative;
+}
+.menu-left{
+    width:15% ;
+    /* background-color: aqua; */
+}
+.menu-right{
+    width: 15%;
+    /* background-color: black; */
+}

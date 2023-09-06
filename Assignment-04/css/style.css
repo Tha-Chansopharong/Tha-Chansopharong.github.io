@@ -571,3 +571,7 @@ pre{
   cursor: pointer;
   border-radius: 5px;
 }
+.image img:hover{
+   border: 2px solid rgb(196, 7, 7);
+   cursor: pointer;
+}

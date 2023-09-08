@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            /* height: auto; */
+            display: flex;
+            background-color: gray;
+           
+        }
+        .center{
+            padding-top: 10px;
+            margin: 0px auto;
+            color: rgb(237, 181, 224);
+            background-color: rgb(98, 185, 125);
+            height: 60px;
+            width: 300px;
+            text-align: center;
+            /* position: fixed; */
+
+        }
+        .left{
+            width: 40%;
+            padding-top: 40px;
+        }
+        .right{
+            width: 40%;
+            padding-top: 80px;
+        }
+        .left div {
+            width: 600px;
+            line-height: 40px;
+            margin-left: 30px;
+        }
+        figure img{
+            width: 500px;
+            padding-left: 20px;
+        }
+        .right div {
+            width: 700px;
+            line-height: 50px;
+        }
+        .right figure img{
+            width: 500px;
+        }
+        h2{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div>
+                <h2>+ Setting width and height of the images</h2>
+                <figure>
+                    <img src="image/width-height.png" alt="setting width and height">
+                </figure>
+            </div>
+            <div>
+                <h2>+ Creating an image-map</h2>
+                <figure>
+                    <img src="image/map.png" alt="creating an image-map">
+                </figure>
+            </div>
+            
+           </div>
+           <div class="center">
+            <h1> HTML IMAGES</h1>
+           </div>
+        
+           <div class="right">
+            <div>
+                <h2>+ Make a hyperlink of an image</h2>
+                <figure>
+                    <img src="image/url.png" alt="Make a hyperlink of an image">
+                </figure>
+            </div>
+            <div>
+                <h2>+ Aligning images</h2>
+                <figure>
+                    <img src="image/align.png" alt="Aligning images">
+                </figure>
+            </div>
+         
+       
+           </div>
+    </div>
+
+    
+</body>
+</html>

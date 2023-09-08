@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            /* height: auto; */
+            display: flex;
+            background-color: gray;
+           
+        }
+        .center{
+            padding-top: 10px;
+            margin: 0px auto;
+            color: rgb(237, 181, 224);
+            background-color: rgb(98, 185, 125);
+            height: 60px;
+            width: 300px;
+            text-align: center;
+
+        }
+        .left{
+            width: 40%;
+            padding-top: 40px;
+        }
+        .right{
+            width: 40%;
+            padding-top: 80px;
+        }
+        .left div {
+            width: 600px;
+            line-height: 40px;
+            margin-left: 30px;
+        }
+        figure img{
+            width: 400px;
+            padding-left: 20px;
+        }
+        .right div {
+            width: 700px;
+            line-height: 50px;
+        }
+        .right figure img{
+            width: 500px;
+        }
+        h2{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            
+            <div>
+                <h2>+ A simple HTML document</h2>
+                <figure>
+                    <img src="image/simpleHtml.png" alt="simple html template picture">
+                </figure>
+            </div>
+            <div>
+                <h2>+ Specify headings for the content</h2>
+            <figure>
+                <img src="image/heading.png" alt="headings for content">
+            </figure>
+            </div>
+        
+            <div>
+                <h2>+ Inserting paragraphs of text content</h2>
+                <figure>
+                    <img src="image/paragraph.png" alt="paragraph of content">
+                </figure>
+            </div>
+           </div>
+           <div class="center">
+            <h1>BASIC HTML</h1>
+           </div>
+        
+           <div class="right">
+            <div>
+                <h2>+ Creating links to other HTML documents <br> or Web resources</h2>
+                <figure>
+                    <img src="image/link.png" alt="creating links to other HTML documents">
+                </figure>
+            </div>
+            <div>
+                <h2>+ Inserting images into the HTML document</h2>
+                <figure>
+                    <img src="image/image-link.png" alt="image link ">
+                </figure>
+            </div>
+          
+           </div>
+    </div>
+
+    
+</body>
+</html>

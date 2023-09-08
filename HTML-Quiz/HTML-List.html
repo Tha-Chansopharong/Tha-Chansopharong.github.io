@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            /* height: auto; */
+            display: flex;
+            background-color: gray;
+           
+        }
+        .center{
+            padding-top: 10px;
+            margin: 0px auto;
+            color: rgb(237, 181, 224);
+            background-color: rgb(98, 185, 125);
+            height: 60px;
+            width: 300px;
+            text-align: center;
+            /* position: fixed; */
+
+        }
+        .left{
+            width: 40%;
+            padding-top: 40px;
+        }
+        .right{
+            width: 40%;
+            padding-top: 80px;
+        }
+        .left div {
+            width: 600px;
+            line-height: 40px;
+            margin-left: 30px;
+        }
+        figure img{
+            width: 500px;
+            padding-left: 20px;
+        }
+        .right div {
+            width: 700px;
+            line-height: 50px;
+        }
+        .right figure img{
+            width: 500px;
+        }
+        h2{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div>
+                <h2>+ Creating an unordered list</h2>
+                <figure>
+                    <img src="image/ul-list.png" alt="unorder list">
+                </figure>
+            </div>
+            <div>
+                <h2>+ Creating an ordered list</h2>
+                <figure>
+                    <img src="image/ol-list.png" alt="creating ordered list">
+                </figure>
+            </div>
+            <div>
+                <h2>+ Creating a description list</h2>
+                <figure>
+                    <img src="image/df-list.png" alt="description list">
+                </figure>
+            </div>
+            
+           </div>
+           <div class="center">
+            <h1> HTML LISTS</h1>
+           </div>
+        
+           <div class="right">
+            <div>
+                <h2>+ Creating a nested list - Single level</h2>
+                <figure>
+                    <img src="image/nested-list-s.png" alt="nested list-single level">
+                </figure>
+            </div>
+            <div>
+                <h2>+ Creating a nested list - Multi level</h2>
+                <figure>
+                    <img src="image/nested-list-m.png" alt="nested list-multi level">
+                </figure>
+            </div>
+         
+       
+           </div>
+    </div>
+
+    
+</body>
+</html>

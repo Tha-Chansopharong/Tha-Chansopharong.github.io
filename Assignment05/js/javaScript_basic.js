@@ -1,0 +1,14 @@
+document.write("<h2>• JavaScript 'Hello World! 'application</h2>");
+document.write("Hello World <br>");
+// document.write("<h1>• Insert JavaScript code inside HTML tag</h1>");
+// document.write("\'<script><br> document.wirte();</script>\'");
+document.write("<h2>• Case sensitivity in JavaScript</h2>");
+document.write("language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters.<br>");
+document.write("<h2>• JavaScript Single line comments</h2>");
+document.write("using two forward slashes // <br>");
+document.write("<h2>• JavaScript Multi line comments</h2>");
+document.write("writing the comment between a forward-slash followed by asterisk /* and asterisk followed by a forward-slash */ <br>");
+document.write("<h2>• Creating and declaring variables in JavaScript</h2>");
+document.write("var x = 1 , let a = 2 , var arr = ['apple', 'orange']");
+document.write("<h1>• Declaring multiple variables in at once JavaScript</h1>");
+document.write("var firstName = 'Tha' , lastName = 'Theara' , middleName = 'Theary';");

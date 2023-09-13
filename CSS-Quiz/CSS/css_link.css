@@ -1,0 +1,45 @@
+.link a:active{
+    color: red; 
+    
+}
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    border: 2px solid green;
+    background-color: rgb(120, 215, 120);  
+}
+a:hover{
+    color: skyblue;
+
+}
+a:visited{
+    color: green;
+}
+
+
+.list ol > li{
+    background-color: darkgray;
+    list-style-position: inside;
+    width: 100px;
+    margin: 4px;
+
+
+}
+.list1 ul > li {
+    background-color: darkgray;
+    list-style-position: outside;
+    width: 100px;
+    margin: 4px;
+}
+.list2 ol > li {
+    background-color: darkgraye;
+    list-style-type: square;
+    width: 100px;
+    margin: 4px;
+}
+.list3 ul > li {
+    background-color: darkgray;
+    list-style-type: circle;
+    width: 100px;
+    margin: 4px;
+}

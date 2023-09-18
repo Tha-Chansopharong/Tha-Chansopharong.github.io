@@ -3,10 +3,12 @@
     margin: 0px;
     box-sizing: border-box;
 }
-button {
+input {
     width: 100px;
     height: 60px;
     box-shadow: 0px 0px 2px #e2e2e2; 
+    font-size: 2rem;
+   
     
 }
 input[type=text]{
@@ -17,7 +19,7 @@ input[type=text]{
     background-color: #ffffff;
     border: 1px solid #dbdbdb;
     box-shadow: 1px 1px 20px 1px #e2e2e2; 
-    font-size: 25px;
+    font-size: 2rem;
 }
 div{
     width: 500px;

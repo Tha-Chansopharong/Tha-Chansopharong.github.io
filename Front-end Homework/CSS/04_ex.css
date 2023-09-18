@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    
+}
+th{
+    text-align: left;
+   
+}
+.th{
+    background-color: gray;
+    color: white;
+
+}
+.td:hover{
+    background-color: blue;
+}

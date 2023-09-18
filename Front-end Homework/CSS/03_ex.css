@@ -1,0 +1,25 @@
+.btn{
+    background-color: aqua;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    margin: 10px;   
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+    box-shadow:3px 4px 3px 2px black ;  
+    /* text-shadow: right button opacity ... color; */
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+ 
+
+}

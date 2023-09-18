@@ -1,0 +1,31 @@
+.img{
+    width: 320px;
+    border:5px solid gray ;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+img{
+    width: 320px;
+   
+
+}
+h1{
+    text-align: center;
+}
+
+.text{
+    width: 320px;
+    border: 5px solid gray;
+    padding: 10px;
+
+}
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

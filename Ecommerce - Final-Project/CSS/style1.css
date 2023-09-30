@@ -1,0 +1,84 @@
+.cus-container{
+    height: auto;
+}
+.custom{
+    background-color: white;
+    border: none;
+}
+.custom .item li a:hover{
+    color: red;
+}
+.btn {
+    display: inline-block;
+    /* margin-bottom: 0; */
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6.20px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    /* border-radius: 4px; */
+    border-color: #ccc;
+    margin-top: 0.10px;
+ 
+}
+
+body {margin:0;}
+
+/* ///////////////////////////////////////////////// */
+.cus-img1 figure{
+    width: 250px;
+    height: 316px;
+    border: 1px solid skyblue;
+}
+.cus-img1 figure img{
+    width: 241px;
+    height: 129px;
+    margin-top: 30px;
+    padding-left: 10px;
+    
+}
+.btn1 {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    height: 32px;
+    padding: 7px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 250px;
+  }
+  .btn2 {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    height: 32px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 150px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  .cus-img1 figcaption{
+    text-align: center;
+    margin-top: 36px;
+    /* margin-left: 56px; */
+  }
+  .cus-img1 figcaption h2, p, button{
+    margin: 5px 0px;
+  }
+  .row1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 

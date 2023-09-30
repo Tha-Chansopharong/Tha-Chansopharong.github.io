@@ -25,10 +25,62 @@ figure img{
 }
 .r1-img1{
     width: 300px;
-    height:500px ;
+    height:437px ;
     border: 2px solid skyblue;
 }
 .r1-r-col{
     display: flex;
    
+}
+h1 ,p, span{
+    /* background-color: red; */
+    width: 200px;
+    height: 25px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    /* text-align: left; */
+    color: rgba(38, 38, 38, 1);
+    margin: 0px;
+
+
+}
+.r1-img1 .text1{
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0px;
+
+}
+.icon img{
+    width: 54px;
+    height: 17px;
+   
+    
+}
+
+.icon span{
+    width: 32px;
+    height: 25px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    /* text-align: center; */
+    padding-right: 80px;
+
+
+}
+p span button{
+    width: 60px;
+    border: 1px solid rgb(239, 171, 183);
+    background-color: rgb(233, 138, 170);
+    border-radius: 4px;
+    box-shadow: 2px 2px rgb(239, 171, 183);
 }

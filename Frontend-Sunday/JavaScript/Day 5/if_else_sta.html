@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else statement</title>
+</head>
+<body>
+    <h2>enter a number : </h2>
+    <input type="text" id="userInput">
+    <button onclick="show()">Submit</button>
+    <p id="result"></p>
+    
+</body>
+</html>
+
+<script>
+    function show(){
+        // var userName = "Pharong";
+        var userName = document.getElementById("userInput").value;
+        // alert("Hello,"+ userName+ ".");
+        document.getElementById("result").innerHTML = "Hello," + userName + ".";
+    }
+</script>

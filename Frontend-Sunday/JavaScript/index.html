@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1 onclick="show()">Click here to show</h1>
+    <h1 id="id"></h1>
+    <button id="show" onclick="change()">Click</button>
+   
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
+
+<script>
+    document.write("<mark>Hello World!</mark>"); // document.write() is a method to write HTML content to show on web page 
+    document.write("<h1>Hello World</h1>"); 
+
+    document.getElementById('id').innerHTML = "Hello This is first JavaScript";
+
+
+    function show(){
+        document.write("This is me!");
+    }
+   
+
+    function change(){
+        document.getElementById("show").innerHTML = "<mark>This was change it content</mark>";
+    }
+    
+    document.write("This use document.write");
+    alert("This is alert Message");
+
+    console.log("Welcome to console output");
+
+    // declaring variable  with var
+    var name = "online class";
+    var name = "class web";
+    name = "The last value"; // it is call none keyword
+
+    document.writeln("declare with keyword var ", name);
+    document.writeln(name);
+
+    // declaring variable with let
+    let name1 = "This is key word let";
+    name1 = "this is new value"; // it mean that we have variable name and then we asign the value to it <<This is key word let>>
+    
+    document.writeln("<br/>",name1);
+
+
+     // declaring variable with const
+
+
+     // JavaScript DataType
+     var school = "This is school";
+     var name2 = true;
+
+     document.write("<br/>",typeof school);
+     document.write("<br/>",typeof name2,"<br/>");
+
+     // it call variable Object students
+     var students = {
+        id: "001",
+        fname: "Monny",
+        gender: "male"
+     }
+     document.write("ID:",students.id,"<br/>");
+     document.write("Name:",students.fname,"<br/>");
+     document.write("Gender:",students.gender,"<br/>");
+
+     var desktops = {date:"12/12/2022", price: "$1200"}; // object
+     var laptops = ["asus","msi","detail"]; // arrays
+
+     document.write("<br/>"," Output objects:",desktops.date,"<br/>",desktops.price,"<br/>");
+     document.write("<br/>","Output Array",laptops[0],"<br/>",laptops[1],"<br/>",laptops[2]);
+
+     let teacher = [
+        {id: "001", name: "Mony", gender: "male"},
+        {id: "002" , name: "dyna" , gender: "male"},
+        {id: "003", name: "Lyna" , gender: "Female"}
+
+     ]
+     document.write("ID: ", teacher[2].id,"<br/>");
+     document.write("Name: ",teacher[0].name,"<br/>");
+     document.write("Gender: ", teacher[0].gender, "<br/>");
+     
+
+
+</script>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical operator</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    let num1 = 12 ;
+    let num2 = 6;
+
+    let sum = num1 + num2;
+
+    console.log("The result is : ",sum); // it mean that we get the message "the result and that we get value from sum"
+    console.log("The result " + sum); // it mean that we get "The result + sum"
+    // console.log(`the result of sum num1 ${num1} and num2 ${num2} is ${sum}`);
+
+    // &&
+    if((num1 && num2) == (12 && 6)){
+        console.log(`sum of ${num1} and ${num2} is `, sum);
+    }
+
+
+    let isSunny = true;
+    let isWarm = true;
+
+    if(isSunny && isWarm){
+        console.log("It's a sunny and warm day . Enjoy!");
+    }else{
+        console.log("The weather might not be perfect.");
+    }
+
+    // logical ||
+    if((num1 == 2) || (num2 == 6)){
+        console.log("True");
+    }else{
+        console.log("False");
+    }
+
+    // logical not(!) 
+    let sad = true;
+
+    if(!sad){
+        console.log(" Sad True");
+    }else{
+        console.log(" Happy False");
+    }
+</script>
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else-1 statement</title>
+</head>
+<body>
+    <input type="number" id="age">
+    <input type="submit" onclick="funName()">
+    
+</body>
+</html>
+
+<script>
+    function funName(){
+        let age = document.getElementById("age").value;
+
+        if(age >= 18){
+            console.log("You can vote . Your age is ", age);
+        }else{
+            console.log("You can not vote . Your age is ", age);
+        }
+    }
+</script>

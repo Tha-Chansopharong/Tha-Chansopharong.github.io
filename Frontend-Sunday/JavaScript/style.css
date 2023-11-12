@@ -1,0 +1,28 @@
+/*
+ 1. JavaScript is a programming language that
+ can calculator or do something that we need 
+ 
+ 2. How to write JavaScript
+    - internal javascript  : write code in HTML 
+    - external javascript  : write code in file .js  : link it into html file <script src="script.js"><script>  
+    ::: ctrl + space = show recommendation 
+
+ 3. លក្ខណះរបស់​  JavaScript
+    - ; semecolem 
+    - declaring variable : key word (var) 
+    - block of code : to write a function 
+    - Processing of code : it process from to top to bottom 
+ 4. .textContent : can't write HTML code in it 
+    
+ 5. alert() = window.alert() : alert() is recommentdation
+    key word <<let>> can not assign the same variable
+    key word <<const>> we can create it just one time and can't assign that value multiple time 
+
+ 6. JavaScript DataType
+    - string , integer , float , ... 
+ 7. JavaScript Event
+    - 
+
+    
+
+*/

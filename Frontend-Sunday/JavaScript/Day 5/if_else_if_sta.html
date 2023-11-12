@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else-if statment</title>
+</head>
+<body>
+    <h2>Day of the week checker</h2>
+    <p>Enter a day of the week </p>
+    <input type="text" placeholder="enter day of week" id="userInput">
+    <button onclick="checkDay()">Check day</button>
+    <p id="result"></p>
+</body>
+</html>
+
+<script>
+    function checkDay(){
+        let userInput = document.getElementById("userInput").value;
+        // if(userInput === "monday"){
+        //     document.getElementById("result").innerText = "monday";
+        // }else if(userInput ==="friday"){
+        //     document.getElementById("result").innerText = "friday ";
+        // }else if(userInput ==="sunday"){
+        //     document.getElementById("result").innerText = "sunday";
+        // }else{
+        //     document.getElementById("result").innerText = "this is not day of the week";
+        // }
+
+        if(userInput === "monday"){
+            displayResult("Today is monday");
+        }else if(userInput ==="friday"){
+           displayResult("Today is friday ");
+        }else if(userInput ==="sunday"){
+            displayResult("Today is sunday");
+        }else{
+            displayResult("this is not day of the week");
+        }
+
+        function displayResult(text){
+            document.getElementById("result").innerText = text; 
+        }
+
+
+    }
+</script>

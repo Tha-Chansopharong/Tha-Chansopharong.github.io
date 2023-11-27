@@ -19,42 +19,46 @@
 
         switch(userInput){
             case "monday":
-                document.getElementById("getText").innerText = ("On monday, I lern Natural Language Processing , Network Security and France.");
+               displayResult("On monday, I lern Natural Language Processing , Network Security and France.");
                 console.log("On monday, I lern Natural Language Processing , Network Security and France.");
                 break;
             case "tuesday":
-                document.getElementById("getText").innerText = ("On tuesday, I lern IT project management , Cloud computing , research methodology and AI.");
+                displayResult("On tuesday, I lern IT project management , Cloud computing , research methodology and AI.");
                 console.log("On tuesday, I lern IT project management , Cloud computing , research methodology and AI.");
 
                 break;
             case "wednesday":
-                document.getElementById("getText").innerText = ("On wednesday, I lern Simulation and Modeling , Cloud computing.");
+                displayResult("On wednesday, I lern Simulation and Modeling , Cloud computing.");
                 console.log("On wednesday, I lern Simulation and Modeling , Cloud computing.");
 
                 break;
             case "thursday":
-                document.getElementById("getText").innerText = ("On thursday, I lern Image processing , Network Security and Simulation and Modeling.");
+                displayResult("On thursday, I lern Image processing , Network Security and Simulation and Modeling.");
                 console.log("On thursday, I lern Image processing , Network Security and Simulation and Modeling.");
 
                 break;
             case "friday":
-                document.getElementById("getText").innerText = ("On friday, I lern English for work and career.");
+                displayResult("On friday, I lern English for work and career.");
                 console.log("On friday, I lern English for work and career.");
 
                 break;
             case "saturday":
-                document.getElementById("getText").innerText = ("On saturday, I have no class at school. I work as a volunteer");
+                displayResult("On saturday, I have no class at school. I work as a volunteer");
                 console.log("On saturday, I have no class at school. I work as a volunteer");
 
                 break;
             case "sunday":
-                document.getElementById("getText").innerText = ("On sunday, I have no class at school. I work as a volunteer. At night I have Frontend class. ");
+                displayResult("On sunday, I have no class at school. I work as a volunteer. At night I have Frontend class. ");
                 console.log("On sunday, I have no class at school. I work as a volunteer. At night I have Frontend class.");
 
                 break;
             default:
-            document.getElementById("getText").innerText = ("This is not a day.");
+            displayResult("This is not a day.");
             console.log("This is not a day.");
+        }
+        
+        function displayResult(text){
+            document.getElementById("getText").innerText = text;
         }
 
     }
